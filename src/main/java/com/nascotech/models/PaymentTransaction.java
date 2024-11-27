@@ -1,4 +1,4 @@
-package com.mycompany.nascotech.models;
+package com.nascotech.models;
 
 
 public class PaymentTransaction {

@@ -1,4 +1,4 @@
-package models;
+package com.nascotech.models;
 
 
 import java.time.LocalDateTime;
