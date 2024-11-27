@@ -23,8 +23,8 @@ public class DataListPaymentResponse {
             return payments;
         }
 
-        public void setPayments(List<PaymentResponse> payments) {
-            this.payments = payments;
+        public void setPayments(Object payments) {
+            this.payments = (List<PaymentResponse>) payments;
         }
 
         public List<Link> getLinks() {
@@ -38,5 +38,7 @@ public class DataListPaymentResponse {
         public void addLink(Link link) {
             this.links.add(link);
         }
-    }
+
+
+}
 

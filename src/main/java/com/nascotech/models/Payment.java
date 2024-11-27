@@ -6,6 +6,10 @@ public class Payment {
     private String PaymentId;
     private BigDecimal amount;
 
+    public Payment() {
+
+    }
+
     public String getPaymentId() {
         return PaymentId;
     }
@@ -34,4 +38,5 @@ public class Payment {
                 ", amount=" + amount +
                 '}';
     }
+
 }
